@@ -106,7 +106,7 @@ function generateTestCases()
 			}
 		}
 		if(isPhone && params['options'] == '\'\''){
-			params['options'] = JSON.stringify({'normalize' : true});
+			params['options'] = JSON.stringify({'normalize' : true,'shouldNormalize' : 'true'});
 		}
 
 		//console.log( params );
